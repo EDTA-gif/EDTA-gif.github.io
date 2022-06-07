@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>线性代数/李永乐01</title>
+    <link href="/2022/06/08/Linear_Algebra/lyl01/"/>
+    <url>/2022/06/08/Linear_Algebra/lyl01/</url>
+    
+    <content type="html"><![CDATA[<h1 id="考研线性代数笔记"><a href="#考研线性代数笔记" class="headerlink" title="考研线性代数笔记"></a>考研线性代数笔记</h1><p>一、行列式的概念</p><p>1.二、三阶行列式（略）</p><p>2.排列、逆序数</p><pre><code class="hljs">排列：有1~n组成的有序数组称为n阶排列，一般用j1~n表示，1~n的顺序排列称为自然排列逆序：一个大的数排在一个小的数的前面逆序的总数称为逆序数，用τ(j_1…j_n)表示逆序数为偶数则为偶排列，反之为奇排列</code></pre><p>定理：两数对换改变奇偶性</p><p>证明：每一个偶排列都能构造一个奇排列，所有偶排列个数小于等于奇排列，同理奇排列个数小于等于偶排列，得证</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Uncategorized</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Tagless</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2022/06/06/hello-world/"/>
     <url>/2022/06/06/hello-world/</url>

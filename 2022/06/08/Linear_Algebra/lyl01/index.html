@@ -16,15 +16,15 @@
   <meta name="author" content="EDTA">
   <meta name="keywords" content="">
   
-    <meta name="description" content="考研线性代数笔记一、行列式的概念 1.二、三阶行列式（略） 2.排列、逆序数 排列：有1~n组成的有序数组称为n阶排列，一般用j1~n表示，1~n的顺序排列称为自然排列 逆序：一个大的数排在一个小的数的前面 逆序的总数称为逆序数，用τ(j_1…j_n)表示 逆序数为偶数则为偶排列，反之为奇排列  定理：两数对换改变奇偶性 证明：每一个偶排列都能构造一个奇排列，所有偶排列个数小于等于奇排列，同理奇排">
+    <meta name="description" content="考研线性代数笔记 一、行列式的概念排列、逆序数  排列  由1n组成的有序数组称为n阶排列，一般用j1n表示，1~n的顺序排列称为自然排列   逆序  一个大的数排在一个小的数的前面 逆序的总数称为逆序数，用τ(j_1…j_n)表示 逆序数为偶数则为偶排列，反之为奇排列  定理：两数对换改变奇偶性 证明：每一个偶排列都能构造一个奇排列，所有偶排列个数小于等于奇排列，同理奇排列个数小于等于偶排列，得">
 <meta property="og:type" content="article">
 <meta property="og:title" content="线性代数&#x2F;李永乐01">
 <meta property="og:url" content="https://edta-gif.github.io/2022/06/08/Linear_Algebra/lyl01/index.html">
 <meta property="og:site_name" content="EDTA&#39;s Blogs">
-<meta property="og:description" content="考研线性代数笔记一、行列式的概念 1.二、三阶行列式（略） 2.排列、逆序数 排列：有1~n组成的有序数组称为n阶排列，一般用j1~n表示，1~n的顺序排列称为自然排列 逆序：一个大的数排在一个小的数的前面 逆序的总数称为逆序数，用τ(j_1…j_n)表示 逆序数为偶数则为偶排列，反之为奇排列  定理：两数对换改变奇偶性 证明：每一个偶排列都能构造一个奇排列，所有偶排列个数小于等于奇排列，同理奇排">
+<meta property="og:description" content="考研线性代数笔记 一、行列式的概念排列、逆序数  排列  由1n组成的有序数组称为n阶排列，一般用j1n表示，1~n的顺序排列称为自然排列   逆序  一个大的数排在一个小的数的前面 逆序的总数称为逆序数，用τ(j_1…j_n)表示 逆序数为偶数则为偶排列，反之为奇排列  定理：两数对换改变奇偶性 证明：每一个偶排列都能构造一个奇排列，所有偶排列个数小于等于奇排列，同理奇排列个数小于等于偶排列，得">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-06-07T17:12:02.000Z">
-<meta property="article:modified_time" content="2022-06-07T17:13:02.398Z">
+<meta property="article:modified_time" content="2022-06-08T08:19:05.172Z">
 <meta property="article:author" content="EDTA">
 <meta property="article:tag" content="Tagless">
 <meta name="twitter:card" content="summary_large_image">
@@ -217,7 +217,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          204 字
+          209 字
         
       </span>
     
@@ -270,16 +270,14 @@
             
             <div class="markdown-body">
               
-              <h1 id="考研线性代数笔记"><a href="#考研线性代数笔记" class="headerlink" title="考研线性代数笔记"></a>考研线性代数笔记</h1><p>一、行列式的概念</p>
-<p>1.二、三阶行列式（略）</p>
-<p>2.排列、逆序数</p>
-<pre><code class="hljs">排列：有1~n组成的有序数组称为n阶排列，一般用j1~n表示，1~n的顺序排列称为自然排列
-逆序：一个大的数排在一个小的数的前面
-逆序的总数称为逆序数，用τ(j_1…j_n)表示
+              <h1 id="考研线性代数笔记-一、行列式的概念"><a href="#考研线性代数笔记-一、行列式的概念" class="headerlink" title="考研线性代数笔记 一、行列式的概念"></a>考研线性代数笔记 一、行列式的概念</h1><h2 id="排列、逆序数"><a href="#排列、逆序数" class="headerlink" title="排列、逆序数"></a>排列、逆序数</h2><p>  <strong>排列</strong><br><br>  由1<del>n组成的有序数组称为n阶排列，一般用j1</del>n表示，1~n的顺序排列称为自然排列</p>
+<p>  <strong>逆序</strong><br><br>  一个大的数排在一个小的数的前面</p>
+<pre><code class="hljs">逆序的总数称为逆序数，用τ(j_1…j_n)表示
 逆序数为偶数则为偶排列，反之为奇排列
 </code></pre>
 <p>定理：两数对换改变奇偶性</p>
 <p>证明：每一个偶排列都能构造一个奇排列，所有偶排列个数小于等于奇排列，同理奇排列个数小于等于偶排列，得证</p>
+<h2 id="n阶行列式"><a href="#n阶行列式" class="headerlink" title="n阶行列式"></a>n阶行列式</h2><p>即不同行不同列的n个元素乘积的代数和</p>
 
               
             </div>

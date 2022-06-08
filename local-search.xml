@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Hexo 博客系统的部署过程</title>
+    <link href="/2022/06/08/Hexo_Tutorial/0x01_Deploy/"/>
+    <url>/2022/06/08/Hexo_Tutorial/0x01_Deploy/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Hexo博客-Fluid主题的部署过程"><a href="#Hexo博客-Fluid主题的部署过程" class="headerlink" title="Hexo博客+Fluid主题的部署过程"></a>Hexo博客+Fluid主题的部署过程</h1><h2 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h2><ol><li>安装Node.JS<ul><li>Node.JS安装完之后会自带npm</li><li>将cache和module文件夹改一下，有空回来补</li><li>可以考虑安装cnpm淘宝镜像，之后将所有命令里的npm换成cnpm执行</li></ul></li><li>初始化hexo博客环境<ul><li>执行<code>npm install hexo-cli -g</code>，全局安装Hexo</li><li>执行<code>hexo init &lt;路径&gt;</code>，在目标文件夹里初始化博客环境，不过反正后续的命令都得在目录里执行我建议你直接在目录里打开命令行执行这一步</li><li>cd到目录里，然后<code>npm install</code></li></ul></li><li>安装Fluid主题<ul><li>在目录里执行<code>npm install --save hexo-theme-fluid</code>把fluid主题文件保存到本地博客环境里</li><li>把这个文件弄到本地，改名为<code>_config_fluid.yml</code></li><li>找到目录里默认的<code>_config.yml</code>里的<code>theme</code>行，改成<code>theme: fluid</code>，之后<code>_config.yml</code>和<code>_config_fluid.yml</code>两个配置文件的重叠项会以<code>_config_fluid.yml</code>里的为准。</li></ul></li><li>部署到Github Pages上（Git应该都安过了吧）<ul><li>建立<code>你的ID.github.io</code>仓库</li><li>在目录里执行<code>npm install --save hexo-deployer-git</code></li><li>配置<code>_config_fluid.yml</code>，等下细写</li><li><code>hexo clean &amp;&amp; hexo deploy</code></li><li>把github.io仓库的默认branch换到你push的branch上</li></ul></li></ol><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><ul><li>hexo server：本地服务器预览</li><li>hexo new post -p path&#x2F;filename “title”: 在<code>source/_posts/path</code>下建立filename.md的文章，文章标题为”title”</li><li>hexo clean: 清理生成的public文件夹</li><li>hexo deploy: 推到github上</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>Gadgets</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Markdown 教程01 语法速览</title>
     <link href="/2022/06/08/Markdown/0x01_Essentials/"/>
     <url>/2022/06/08/Markdown/0x01_Essentials/</url>

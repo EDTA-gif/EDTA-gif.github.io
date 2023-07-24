@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Hexo站点的初次部署</title>
+    <link href="/2023/07/25/Hexo%20usage/0x01-hexo-deploy/"/>
+    <url>/2023/07/25/Hexo%20usage/0x01-hexo-deploy/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Hexo的初次部署"><a href="#Hexo的初次部署" class="headerlink" title="Hexo的初次部署"></a>Hexo的初次部署</h1><div class="note note-info">            <p><span class="label label-primary">参考链接</span><br><a href="https://www.jianshu.com/p/0568082ce342">部署 Hexo 到 Github Pages - 简书</a></p>          </div><h2 id="0-本地环境"><a href="#0-本地环境" class="headerlink" title="0.本地环境"></a>0.本地环境</h2><ul><li>下载并安装Node.js</li><li>（可选）下载并安装国内镜像命令 cnpm</li><li>明天再写</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>Hexo usage</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>init()</title>
+    <link href="/2023/07/25/why-blog/"/>
+    <url>/2023/07/25/why-blog/</url>
+    
+    <content type="html"><![CDATA[<h1 id="init"><a href="#init" class="headerlink" title="init()"></a>init()</h1><p>想到哪写到哪</p><h2 id="首先，为什么要设置一个公开的个人博客？"><a href="#首先，为什么要设置一个公开的个人博客？" class="headerlink" title="首先，为什么要设置一个公开的个人博客？"></a>首先，为什么要设置一个公开的个人博客？</h2><ul><li>事实上本地的Onenote上面也记了很多笔记，也有相当不错的云同步功能，无论是访问还是上传媒体也都比这个部署在github上的个人站方便很多，公式的话也有UnicodeMath支持，可能最大的缺点只有格式定义不太方便</li><li>在学习工作中读了很多其他人的技术博客，愈发感觉有些踩过的非常琐碎的坑可能必须要别人的一句指点才能趟过去，哪怕是CSDN上前后文语焉不详的一句话都给过我莫大的帮助，所以想着还是尽可能发扬一下互联网精神，把自己的一些经验拿来共享一下</li></ul><h2 id="那会把OneNote上的东西全部迁移过来吗？"><a href="#那会把OneNote上的东西全部迁移过来吗？" class="headerlink" title="那会把OneNote上的东西全部迁移过来吗？"></a>那会把OneNote上的东西全部迁移过来吗？</h2><ul><li>首先一些没有完成（其实大部分完全没开）的坑的计划肯定会保持私密，以我的时间管理能力我想象不出来这些坑得到什么时候才能填完，所以还是不要立太多Flag的比较好。</li><li>其次是大量的没记完的本科专业课课程笔记……有可能的话捡起来一些用的比较多的通用理论课的内容一边复习一边补上来吧。</li><li>最后还剩下的就是各种语言学习总结（自然语言和编程语言）和软件使用笔记了，这部分迁移优先级会相对高一些。</li><li>（打这行字的过程中甚至都碰到了OneNote快速笔记快捷键，哈哈）</li></ul>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2023/07/17/hello-world/"/>
+    <url>/2023/07/17/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
